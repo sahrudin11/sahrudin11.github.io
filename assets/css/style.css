@@ -1,0 +1,101 @@
+@font-face {
+    font-family: 'ralewayregular';
+    src: url('../font/raleway-regular-webfont.woff2') format('woff2'),
+         url('../font/raleway-regular-webfont.woff') format('woff');
+    /*font-weight: normal;
+    font-style: normal;*/
+}
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-family: 'raleway','ralewayregular','Arial';
+}
+
+.navbar-brand{
+	font-family: Ubuntu;
+	font-weight: bold;
+	font-size: 1.6rem;
+	color: #EF0055 !important;
+}
+
+.nav-link{
+	text-transform: uppercase;
+	font-size: 0.9rem;
+}
+
+.btn-first{
+	background-color: #00AEC8;
+}
+
+.btn-second{
+	background-color: #EF0055;
+}
+
+.active{
+	color: #00AEC8 !important;
+	background-color: #fff;
+}
+
+.jumbotron{
+	/*max-height: 47rem;*/
+	text-align: center;
+	background-color: #fff;
+	color: black;
+	overflow: hidden;
+}
+
+.jumbotron h1{
+	font-size: 2.5rem;
+}
+
+.jumbotron p{
+	font-size: 1rem;
+}
+
+.search{
+	margin-top: -70px;
+}
+
+section h3{
+	font-size: 1.1rem;
+}
+
+section h5, footer h5{
+	font-size: 1rem;
+}
+
+
+.progress-bar{
+	background-color: #00AEC8;
+}
+
+@media (min-width: 992px) {
+	nav{
+		transition: background 0.3s;
+	}
+
+	.jumbotron{
+		text-align: left;
+		max-height: 33rem;
+	}
+
+	.jumbotron h1{
+		font-size: 3.5rem;
+	}
+
+	.jumbotron p{
+		font-size: 1.3rem;
+	}
+
+	section h3{
+		font-size: 1.4rem;
+	}
+
+	footer h5{
+		font-size: 1.3rem;
+	}
+}
