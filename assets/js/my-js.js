@@ -1,4 +1,20 @@
 $(document).ready(function(){
+
+	$('.owl-carousel').owlCarousel({
+		loop: false,
+		margin: 10,
+		responsive: {
+			0: {
+				items: 1
+			},
+			568: {
+				items: 2
+			},
+			768: {
+				items: 3
+			}
+		}
+	});
 		
 	$(window).scroll(function(){		
 		if($(this).scrollTop() > 300){
