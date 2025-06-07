@@ -95,6 +95,46 @@ section h5, footer h5{
 	}
 }
 
+.linkedin:hover {
+	background-color: #0077b5 !important;
+	&.text-dark {
+		color: #fff !important;
+		border-color: #fff !important;
+	}
+}
+
+.github:hover {
+	background-color: #24292e !important;
+	&.text-dark {
+		color: #fff !important;
+		border-color: #fff !important;
+	}
+}
+
+.dribbble:hover {
+	background-color: #ea4c89 !important;
+	&.text-dark {
+		color: #fff !important;
+		border-color: #fff !important;
+	}
+}
+
+.instagram:hover {
+	background-color: #c13584 !important;
+	&.text-dark {
+		color: #fff !important;
+		border-color: #fff !important;
+	}
+}
+
+.email:hover {
+	background-color: #d44638 !important;
+	&.text-dark {
+		color: #fff !important;
+		border-color: #fff !important;
+	}
+}
+
 @media (min-width: 992px) {
 	nav{
 		transition: background 0.3s;
