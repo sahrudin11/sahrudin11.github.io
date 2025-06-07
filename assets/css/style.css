@@ -135,6 +135,42 @@ section h5, footer h5{
 	}
 }
 
+.pimcore:hover {
+	border-color: #6E81B6 !important;
+}
+
+.wordpress:hover {
+	border-color: #21759b !important;
+}
+
+.jquery:hover {
+	border-color: #0769ad !important;
+}
+
+.react:hover {
+	border-color: #61DAFB !important;
+}
+
+.mysql:hover {
+	border-color: #00758F !important;
+}
+
+.git:hover {
+	border-color: #F05032 !important;
+}
+
+.redis:hover {
+	border-color: #D82C20 !important;
+}
+
+.docker:hover {
+	border-color: #2496ED !important;
+}
+
+.figma:hover {
+	border-color: #F24E1E !important;
+}
+
 @media (min-width: 992px) {
 	nav{
 		transition: background 0.3s;
