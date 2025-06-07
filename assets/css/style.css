@@ -9,6 +9,7 @@
 *{
 	margin: 0;
 	padding: 0;
+	scroll-behavior: smooth;
 }
 
 body{
@@ -19,25 +20,30 @@ body{
 	font-family: Ubuntu;
 	font-weight: bold;
 	font-size: 1.6rem;
-	color: #EF0055 !important;
+	color: #606bf1 !important;
 }
 
 .nav-link{
 	text-transform: uppercase;
 	font-size: 0.9rem;
+	font-weight: bolder;
 }
 
 .btn-first{
-	background-color: #00AEC8;
+	background-color: #606bf1;
 }
 
 .btn-second{
-	background-color: #EF0055;
+	background-color: #ff8578;
 }
 
 .active{
-	color: #00AEC8 !important;
+	color: #606bf1 !important;
 	background-color: #fff;
+}
+
+.card-title {
+	color: initial;
 }
 
 .jumbotron{
@@ -50,6 +56,7 @@ body{
 
 .jumbotron h1{
 	font-size: 2.5rem;
+	font-weight: bold;
 }
 
 .jumbotron p{
@@ -62,15 +69,30 @@ body{
 
 section h3{
 	font-size: 1.1rem;
+	font-weight: bold;
 }
 
 section h5, footer h5{
 	font-size: 1rem;
+	font-weight: bold;
 }
 
 
 .progress-bar{
-	background-color: #00AEC8;
+	background-color: #606bf1 !important;
+}
+
+#techstack {
+	img {
+		width: 100px;
+		height: 100px;
+	}
+
+	.col-4 {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
 }
 
 @media (min-width: 992px) {
