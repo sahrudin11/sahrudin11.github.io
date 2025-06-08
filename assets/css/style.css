@@ -106,6 +106,10 @@ section h5, footer h5{
 		justify-content: center;
 		align-items: center;
 	}
+
+	.card {
+		transition: all 0.3s ease-in-out;
+	}
 }
 
 .linkedin:hover {
